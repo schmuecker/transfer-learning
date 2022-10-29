@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "classification-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Schmücker <schmuecker.tobias@gmail.com>"]
+readme = "README.md"
+packages = [{include = "classification_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
